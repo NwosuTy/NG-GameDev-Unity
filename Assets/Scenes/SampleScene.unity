@@ -1044,7 +1044,7 @@ MonoBehaviour:
   playerCar: {fileID: 3833130586035569815}
   thisCam: {fileID: 1371660721}
   pivot: {fileID: 1373455535}
-  cameraMode: 5
+  cameraMode: 0
   lastCameraMode: 5
   useTopCameraMode: 1
   useHoodCameraMode: 0
@@ -1057,13 +1057,13 @@ MonoBehaviour:
   useOcclusion: 1
   occlusionLayerMask:
     serializedVersion: 2
-    m_Bits: 4294965465
+    m_Bits: 2147483647
   useAutoChangeCamera: 0
   topCameraAngle: {x: 18, y: 0, z: 0}
   maximumZDistanceOffset: 0
   topCameraDistance: 125
-  TPSDistance: 22
-  TPSHeight: 15
+  TPSDistance: 15
+  TPSHeight: 6
   TPSHeightDamping: 10
   TPSRotationDamping: 3
   TPSTiltMaximum: 15
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   TPSOffsetX: 0
   TPSOffsetY: 0
   TPSAutoFocus: 0
-  TPSAutoReverse: 0
+  TPSAutoReverse: 1
   TPSCollision: 1
   TPSOffset: {x: 0, y: 2, z: 0}
   TPSStartRotation: {x: 0, y: 0, z: 0}
@@ -1179,15 +1179,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373480975}
-  m_LocalRotation: {x: 0.27059805, y: 0.6532815, z: -0.27059805, w: 0.6532815}
-  m_LocalPosition: {x: -18.7, y: 21.5, z: 1.2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.11, y: 2.96, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1373200355}
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 45, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1373455535
 GameObject:
   m_ObjectHideFlags: 0

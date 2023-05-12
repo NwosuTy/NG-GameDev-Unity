@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RCC_Settings
   m_EditorClassIdentifier: 
   controllerSelectedIndex: 0
-  behaviorSelectedIndex: 4
+  behaviorSelectedIndex: 2
   overrideBehavior: 1
   overrideFPS: 1
   overrideFixedTimeStep: 1
